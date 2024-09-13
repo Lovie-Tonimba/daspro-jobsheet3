@@ -10,13 +10,13 @@ public class Kafe10 {
         double totalHarga;
         double nominalBayar;
 
-        System.out.println("Enter membership (true/false): ");
+        System.out.print("Enter membership (true/false) : ");
         membership = sc.nextBoolean();
-        System.out.println("Enter jumlah pembelian kopi: ");
+        System.out.print("Enter jumlah pembelian kopi   : ");
         jmlKopi = sc.nextInt();
-        System.out.println("Enter jumlah pembelian teh: ");
+        System.out.print("Enter jumlah pembelian teh    : ");
         jmlTeh = sc.nextInt();
-        System.out.println("Enter jumlah pembelian roti: ");
+        System.out.print("Enter jumlah pembelian roti   : ");
         jmlRoti = sc.nextInt();
 
         totalHarga = (jmlKopi * hargaKopi) + (jmlTeh * hargaTeh) + (jmlRoti * hargaRoti);
